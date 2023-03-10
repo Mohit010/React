@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.heading {
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+
+.mrp{
+    padding-top: 100px;
+    font-size: 25px;
+    color:#8A8A8A;
+}
+.eleven{
+    background-color: black;
+    color: white;
+    margin-left: 9px;
+}
+
+.rmrp{
+    font-size: 50px;
+    color:#C6AC8F;
+}
+
+.mr{
+    margin-top: 20px;
+}
+
+.on_sale{
+    font-Size: 36px;
+    font-Weight: bolder;
+    /* font-family: "Poppins"; */
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+
+.piece{
+    font-Size:28px;
+    /* font-family: "Poppins"; */
+    font-family: "Roboto";
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.brand{
+    font-Size:14px;
+    font-weight: 1000;
+    /* font-family: "sans-serif"; */
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.6px;
+}
+
+.none{
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: bolder;
+    letter-spacing: 0.4px;
+}
+
+.gq{
+    margin-top: 20px;
+    display:flex;
+    width:429px;
+    height:49px;
+    font-Size:18px;
+    justify-content: center;
+    padding-top: 12px;
+    text-align:center;
+    background-color: black;
+    color: white;
+}
+
+.eligible{
+    color:#10A728;
+    font-Size:18px;
+    text-Decoration:underline;
+    margin-left: 40px;
+}

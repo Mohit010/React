@@ -1,0 +1,92 @@
+
+.dlvry{
+    display: flex;
+    margin-bottom: 32px;
+}
+.big{
+    margin-Top: 70px;
+}
+.same{
+    margin-left: 40px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.class1{
+    margin-Left: 30px;
+    margin-Bottom: 10px;
+}
+
+.money{
+    height: 40px;
+    width: 40px;
+}
+
+.truck{
+    height: 40px;
+    width: 50px;
+}
+
+.replc{
+    height: 40px;
+    width: 40px;
+}
+
+.icon_truck{
+    margin-Left: 30px;
+    margin-Bottom: 10px;
+}
+
+.icon_replace{
+     margin-Left: 45px;
+     margin-Bottom: 10px;
+}
+
+.pincode{
+    display: flex;
+    height: 35px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.pc_1{
+    background-Color: #F0F0F0;
+    width: 360px;
+    padding: 7px;
+    padding-left: 50px;
+}
+
+.check{
+     background-Color: #22333B;
+     color: white;
+     text-align: center;
+     padding: 7px;
+     width: 180px;
+}
+
+.get{
+    color: #8A8A8A;
+    background-Color: #EEE6DD;
+    width: 610px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.free{
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+.hr{
+    width: 594px;
+    margin-left: 16px;
+}

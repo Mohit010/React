@@ -1,0 +1,84 @@
+
+.prdct{
+    margin-bottom: 23px;
+    font-size: 23px;
+    font-family: "Poppins";
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+.big_div{
+    background-Color: #EAE1D6;
+    height: 121px;
+    width: 610px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.same1{
+    display: flex;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.same2{
+    display: flex;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.Same1{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Same2{
+    padding: 10px;
+}
+
+#s1{
+    margin-left: 120px;
+}
+
+.desc{
+   background-Color: #22333B;
+   height: 49px;
+   color: white;
+   width: 610px;
+   margin-bottom: 10px;
+}
+
+.des{
+    padding-left: 10px;
+    padding-top: 13px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.content{
+    width: 610px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.dimen{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+}
+
+.ruler{
+    padding: 5px;
+}
+
+#rl{
+    height: 30px;
+    width: 30px;
+}
