@@ -2,6 +2,17 @@ import React from 'react'
 import './product.css'
 import ruler from '../../assets/ruler.png'
 import truck from '../../assets/truck.png'
+import { TbChartBubble } from "react-icons/tb";
+import { BsDroplet } from "react-icons/bs";
+import { BsShieldShaded } from "react-icons/bs";
+import { GiSofa } from "react-icons/gi";
+import { FiInfo } from "react-icons/fi";
+import { AiOutlineDown } from "react-icons/ai";
+
+
+
+
+
 
 const Product_overview = () => {
   return (
@@ -11,19 +22,19 @@ const Product_overview = () => {
     <div className='big_div' >
       <div className="same1">
       <div className='Same1'>
-        Extreme Comfort
+       <TbChartBubble/> &nbsp; Extreme Comfort
       </div>
       <div id='s1' className='Same1'>
-        Water Resistant
+        <BsDroplet /> &nbsp; Water Resistant
       </div>
       </div>
-      {/* <div className='w-100'></div> */}
+      
         <div className="same2">
         <div className='Same2'>
-        1 year Warranty
+       <BsShieldShaded/> &nbsp; 1 year Warranty
       </div>
       <div className='Same2'>
-        <div id='s1'>Removable Cushions</div>
+        <div id='s1'><GiSofa/> &nbsp; Removable Cushions</div>
       </div>
         </div>
     </div>
@@ -31,8 +42,8 @@ const Product_overview = () => {
     <br />
 
     <div className='desc' >
-      <div className='des'>Description</div>
-      <div className='col-2'></div>
+      <div className='des'><FiInfo/> &nbsp;Description &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <AiOutlineDown/></div>
+      
     </div>
 
     <br />
@@ -43,23 +54,23 @@ const Product_overview = () => {
 
     <br />
 
-    <hr/>
+    <hr className='hr'/>
 
 
 
    
      <div className="dimen">
         <div className='ruler'><img src={ruler} alt="" /></div>
-        <div className='ruler'>Dimensions</div>
+        <div className='ruler'>Dimensions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <AiOutlineDown/> </div>
      </div>
    
     
-    <hr/>
+    <hr className='hrr'/>
     <div className="dimen">
         <div  className='ruler'><img id='rl' src={truck} alt="" /></div>
-        <div className='ruler'>Shipping Details</div>
+        <div className='ruler'>Shipping Details  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <AiOutlineDown/></div>
      </div>
-        
+
   </div>
 
   

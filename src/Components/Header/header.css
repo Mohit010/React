@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
  .c1{
-    margin-left: 6%;
+    margin-left: 2%;
     padding: 10px;
     letter-spacing: 1px;
  }
@@ -14,11 +14,40 @@
     font-weight: bolder;
  }
  .order{
-    margin-left: 65%;
+    margin-left: 58%;
     padding: 10px;
     letter-spacing: 1px;
  }
 
+ #pimg {
+    width: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    height: 35px;
+ }
+
+ #lcn{
+    width: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    height: 35px;
+ }
+
+ #lcn img{
+    width: 28px;
+    margin-bottom: 10px;
+    margin-left: 860px;
+    margin-top: 7px;
+    height: 23px;
+ }
+
+ #pimg img{
+    width: 28px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 7px;
+    height: 23px;
+ }
 
  .frikly{
     font-Size:35px;
@@ -53,15 +82,25 @@
     font-weight: lighter;
  }
 
+ .good{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 10px;
+    gap: 35px;
+    height: 25px;
+ }
+
+
  .nav3{
     display: flex;
     background-color: rgb(40, 40, 50);
     height: 40px;
     align-items: center;
+    letter-spacing: 1px;
  }
 
  .n2{
-    padding-left: 90px;
+    padding-left: 80px;
     color: white;
     font-family: "Roboto";
     font-weight: bold;

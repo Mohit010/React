@@ -1,15 +1,14 @@
 import React from 'react'
 import Items from './Items'
-import './item.css'
 
-const Similar_Product = () => {
+const Recently_viewed = () => {
   return (
     <div className='simple'>
-    <h2 className='sp'>Similar Products</h2>
+    <h2 className='sp'>Recently Viewed</h2>
     <br />
-    <br />
+    <br />  
       <div className='item'>
-            <div>
+            <div className='cover'>
             <div className='white'><Items/></div>
             </div>
 
@@ -26,10 +25,8 @@ const Similar_Product = () => {
         <br />
         <br />
         <br />
-        <br />
     </div>
-    
   )
 }
 
-export default Similar_Product
+export default Recently_viewed

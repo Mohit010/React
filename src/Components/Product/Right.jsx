@@ -3,16 +3,21 @@ import './right.css'
 import Profile from './Profile'
 import Delievery from './Delievery'
 import Overview from './Product_overview'
+import Redhrt from '../../assets/rhrt.png'
+import { FaTruckMoving } from "react-icons/fa";
+
 
 const Right = () => {
   return (
     <>
     <div className='heading'>
     <h1 >
-        <b>Dorna Premium Leatherette <br /> Rolled arm Sofa, 74.01” 3 <br /> Seater, Light Brown</b>
+        <b>Dorna Premium Leatherette &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;    <img src={Redhrt} alt="" />
+            <br /> Rolled arm Sofa, 74.01” 3 <br /> Seater, Light Brown</b>
         </h1>
     </div>
-        <div className='container-fluid price-container'>
+   
+        <div>
             <span className='mrp'>MRP : <strike>₹17,999</strike>
              <span className='eleven'> 11% off </span></span> <br/>
 
@@ -37,8 +42,10 @@ const Right = () => {
             <br/>
             <span className='gq'>Get Quote</span>
             <br/>
-             <span className='eligible'>Eligible for free 1 day delivery</span>
+            
+             <span className='eligible'><FaTruckMoving style={{color:"black"}} /> &nbsp;Eligible for free 1 day delivery</span>
             <br/>
+            
             <Profile />
             <Delievery />
             <Overview/>

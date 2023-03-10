@@ -1,0 +1,72 @@
+
+
+.vv{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 180px;
+}
+
+.ic{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 15px;
+    gap: 8px;
+}
+
+#v{
+    margin-top: 10px;
+}
+.comman{
+    display: flex;
+}
+
+.frl{
+     font-Size: 30px;
+     color: white;
+     padding: 10px;
+}
+
+.arr{
+    color: #EAE0D5;
+    margin-left: 180px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+
+}
+
+.leff{
+    margin-top: 120px;
+    margin-left: 250px;
+}
+
+.gitc{
+    font-size:25px;
+    color:white;
+    font-family: "Poppins";
+    font-weight: bolder;
+
+}
+
+#info{
+   color:#EAE0D5;
+   font-family: "Poppins";
+    font-weight: bolder;
+}
+
+#cnc{
+    color:#EAE0D5;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+
+.cpyrght{
+    display: flex;
+    color:#EAE0D5;
+    font-size:14px;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Roboto";
+    font-weight: bolder;
+}

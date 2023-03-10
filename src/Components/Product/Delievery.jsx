@@ -3,6 +3,7 @@ import Money from '../../assets/Money.png'
 import Truck from '../../assets/truck.png'
 import Replace from '../../assets/replacement.png'
 import './delievery.css'
+import { GrLocation } from "react-icons/gr";
 
 const Delievery = () => {
   return (
@@ -28,7 +29,7 @@ const Delievery = () => {
 
       
           <div className='pincode' >
-            <div className='pc_1' >Enter pincode</div>
+            <div className='pc_1' > <GrLocation/> &nbsp;Enter pincode</div>
             <div className='check' >Check</div>
           </div>
         
