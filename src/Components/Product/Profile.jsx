@@ -7,7 +7,7 @@ import { BsShareFill } from "react-icons/bs";
 const Profile = () => {
   return (
     <div className='pf'>
-    ProfileCard
+    Perks
     <br />
     <br />
     <input  type="checkbox" name="propducts" /> <label>Compare products</label>
